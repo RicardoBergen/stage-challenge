@@ -1,6 +1,6 @@
 <?php
     $alphabet = range('a', 'z');
-    $werknemers = array_map('strtolower', array("Arne","Reinier","Kylian","Huub","Mick","Brenda","Ruben","Desley","Carly","Esther"));
+    $werknemers = array_map('strtolower', array("Ricardo","Arne","Reinier","Kylian","Huub","Mick","Brenda","Ruben","Desley","Carly","Esther"));
     sort($werknemers);
     $total = 0;
     echo '<table>';
